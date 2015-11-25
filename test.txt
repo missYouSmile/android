@@ -2,3 +2,6 @@
 
 
 my test,you are erb!
+
+
+我有来修改我的test了！这次我用的是中文。
