@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView 
+        android:id="@+id/tv_title"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="DYTV"/>
+    
+    <android.support.v4.view.ViewPager
+        android:layout_below="@id/tv_title"
+        android:id="@+id/vp_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#33FFEE00" >
+    </android.support.v4.view.ViewPager>
+
+    
+    <RadioGroup 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        
+        <RadioButton 
+            android:id="@+id/btn_sy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/RadioButton"
+            android:checked="true"
+            android:text="首页"/>
+        
+        <RadioButton 
+            android:id="@+id/btn_lm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/RadioButton"
+            android:text="栏目"/>
+        
+        <RadioButton 
+            android:id="@+id/btn_zb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/RadioButton"
+            android:text="直播"/>
+        
+        <RadioButton 
+            android:id="@+id/btn_wd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/RadioButton"
+            android:text="我的"/>
+    </RadioGroup>
+</RelativeLayout>
