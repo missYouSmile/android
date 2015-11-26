@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="radio_btn_color_default">#33FFEE00</drawable>
+    <drawable name="radio_btn_color_click">#7fff00ff</drawable>
+</resources>
