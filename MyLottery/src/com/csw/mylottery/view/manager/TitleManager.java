@@ -23,6 +23,7 @@ public class TitleManager implements Observer {
 	private ImageView btnLogin;// 登录按钮
 
 	private TextView commonTV;
+
 	private TitleManager() {
 	}
 
@@ -34,14 +35,12 @@ public class TitleManager implements Observer {
 
 	public void init(Activity activity) {
 		commonTitle = (RelativeLayout) activity.findViewById(R.id.title_common);
-		unLoginTitle = (RelativeLayout) activity
-				.findViewById(R.id.title_unlogin);
+		unLoginTitle = (RelativeLayout) activity.findViewById(R.id.title_unlogin);
 		loginTitle = (RelativeLayout) activity.findViewById(R.id.title_login);
 
 		btnLogin = (ImageView) unLoginTitle.findViewById(R.id.btn_login);
 		commonTV = (TextView) commonTitle.findViewById(R.id.tv_common_title);
-		
-		
+
 		setListener();
 	}
 
@@ -102,7 +101,7 @@ public class TitleManager implements Observer {
 			}
 			break;
 		case ConstantValue.ID_LOGINUI:
-			commonTV.setText("登录");
+			commonTV.setText("登 陆");
 		default:
 			showCommonTitle();
 			break;

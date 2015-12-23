@@ -3,8 +3,17 @@
 
     <string name="app_name">MyLottery</string>
     <string name="hello_world">Hello world!</string>
-    <string name="s_common_title">标题</string>
+    <string name="s_common_title">标 题</string>
     <string name="s_login_title">已经登录标题</string>
     <string name="s_buy_msg">共 1 注 2 元</string>
+    <!-- 提示信息 -->
+    <string name="s_login_hint">温馨提示：彩民村用户可直接登录</string>
+    <string name="s_find_pwssword_hint">您遗忘登录密码时可登录彩民村网站（www.caimincun.com）找回，或致电彩民村客服热线索回密码！</string>
+    <string name="s_username_hint">手机号/邮箱</string>
+    <string name="s_password_hint">请输入账户密码</string>
+    <string name="s_auto_login_hint">自动登录</string>
+	<!-- 标签信息 -->
+    <string name="s_username_label">用户名:</string>
+    <string name="s_password_label">密     码:</string>
 
 </resources>

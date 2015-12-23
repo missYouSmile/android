@@ -32,7 +32,7 @@ public class ContentManager extends Observable {
 	private BaseUI currentUI;
 
 	public void changeUI(Class<? extends BaseUI> targetClass) {
-		// ÇĞ»»µÄÒ³ÃæÎªµ±Ç°ÕıÔÚÕ¹Ê¾µÄÒ³Ãæ
+		// åˆ¤æ–­å½“å‰é¡µé¢æ˜¯å¦æ˜¯è¦åˆ‡æ¢çš„é¡µé¢
 		if (currentUI != null && (currentUI.getClass() == targetClass)) {
 			return;
 		}
@@ -44,7 +44,7 @@ public class ContentManager extends Observable {
 			throw new RuntimeException("no constructor for arg Context.class");
 		}
 
-		// ÇĞ»»½çÃæµÄºËĞÄ´úÂë
+		// åˆ‡æ¢ç•Œé¢çš„æ ¸å¿ƒæ–¹æ³•
 		content.removeAllViews();
 		
 		View view = targetUI.getView();
