@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyLottery</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="s_common_title">标题</string>
+    <string name="s_login_title">已经登录标题</string>
+    <string name="s_buy_msg">共 1 注 2 元</string>
+
+</resources>
